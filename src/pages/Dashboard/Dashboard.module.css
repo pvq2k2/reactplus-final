@@ -1,0 +1,137 @@
+.container {
+  width: 375px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboardTop {
+  height: 307px;
+  background: rgba(244, 194, 127, 0.67);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dashboardTop img {
+  border: 3px solid #d8605b;
+  border-radius: 100%;
+  padding: 5px;
+}
+.dashboardTop .name {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+}
+.dashboardTop .tag {
+  font-weight: 500;
+  font-size: 10px;
+  color: #d8605b;
+}
+.dashboardTop button {
+  background: #f4c27f;
+  border-radius: 50px;
+  margin-top: 12px;
+  border: none;
+  padding: 5px 20px;
+  font-weight: 400;
+  font-size: 10px;
+  color: #000000;
+  cursor: pointer;
+}
+.dashboardTop button:hover {
+  background: #fd8f00;
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+.clock h3 {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.75);
+  margin-top: 24px;
+}
+.todoList {
+  margin: 0 25px;
+}
+.todoList h2 {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.75);
+  padding: 15px 0 20px 0;
+}
+.boxTodolist {
+  width: 100%;
+  padding: 26px 28px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+}
+.headerTodo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.headerTodo h3 {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.list {
+  margin-top: 30px;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 20px;
+  overflow: scroll;
+}
+.list li {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.list li input[type="checkbox"]:checked {
+  content: "";
+  color: rgba(244, 194, 127, 0.67);
+  border-radius: 50px;
+}
+
+.list::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+.list::-webkit-scrollbar-track {
+  background: #fff;
+  border-bottom-right-radius: 10px;
+}
+
+/* Handle */
+.list::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  height: 90px;
+  border-radius: 100px;
+}
+
+/* Handle on hover */
+.list::-webkit-scrollbar-thumb:hover {
+  background: rgb(143, 190, 245);
+}
