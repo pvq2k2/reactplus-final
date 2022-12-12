@@ -5,7 +5,7 @@ type Props = {
 };
 
 const Button = ({ children }: Props) => {
-  return <div className={styles.btn}>{children}</div>;
+  return <button className={styles.btn}>{children}</button>;
 };
 
 export default Button;

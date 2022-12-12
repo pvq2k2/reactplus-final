@@ -21,7 +21,7 @@ const Home = (props: Props) => {
         </div>
       </div>
       <Button>
-        <Link to="/signup" className={styles.link}>
+        <Link to="/register" className={styles.link}>
           Get Start
           <img src={arrow} alt="arrow" className={styles.arrow} />
         </Link>
