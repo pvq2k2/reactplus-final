@@ -1,3 +1,5 @@
+> Do thứ 5 thứ 6 em nghỉ lên hôm nay em mới làm bài mong các anh thông cảm cho em ạ, em xin chân thành cảm ơn !
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
